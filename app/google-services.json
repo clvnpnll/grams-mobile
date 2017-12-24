@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "120213053378",
+    "firebase_url": "https://gramsnotif.firebaseio.com",
+    "project_id": "gramsnotif",
+    "storage_bucket": "gramsnotif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120213053378:android:c08d067f67b00005",
+        "android_client_info": {
+          "package_name": "com.example.serrano.grams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120213053378-ri1f49mlphj67ttuvnktku32epubukan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm3wUo-7LjWK2JZTKBJDMVkJDrvvuPuw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
