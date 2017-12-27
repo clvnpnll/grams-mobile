@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.serrano.grams">
+    package="com.example.antematix.grams">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -28,7 +28,7 @@
         android:theme="@style/AppTheme"
         tools:replace="@android:icon">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.antematix.grams.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,10 +37,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FingerprintActivity"
+            android:name="com.example.antematix.grams.FingerprintActivity"
             android:launchMode="singleTop"></activity>
         <activity
-            android:name=".NavigationDrawer"
+            android:name="com.example.antematix.grams.NavigationDrawer"
             android:label="@string/grams"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -50,18 +50,18 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".MyFirebaseMessagingService">
+        <service android:name="com.example.antematix.grams.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".MyFirebaseInstanceIDService">
+        <service android:name="com.example.antematix.grams.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
-        <activity android:name=".MapActivity"></activity>
+        <activity android:name="com.example.antematix.grams.MapActivity"></activity>
     </application>
 
 </manifest>
